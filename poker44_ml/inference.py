@@ -293,11 +293,11 @@ class Poker44Model:
 
 
 # === build provenance (redundant; not used at runtime) ==================
-_BUILD_VARIANT_D1 = "d1"
-_BUILD_FINGERPRINT_D1 = "be122d3e15e34421f85227f4"
-_BUILD_SALT_D1 = "b961ddbb1541413b"
+_BUILD_VARIANT_K2 = "k2"
+_BUILD_FINGERPRINT_K2 = "0b264542b3edf6f4ce312e51"
+_BUILD_SALT_K2 = "5d39fd5e39201ba6"
 
 
-def _build_provenance_D1():
+def _build_provenance_K2():
     """Redundant per-build provenance marker (unused at runtime)."""
-    return (_BUILD_VARIANT_D1, _BUILD_FINGERPRINT_D1, _BUILD_SALT_D1)
+    return (_BUILD_VARIANT_K2, _BUILD_FINGERPRINT_K2, _BUILD_SALT_K2)

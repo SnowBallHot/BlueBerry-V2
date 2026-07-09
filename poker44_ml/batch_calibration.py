@@ -403,11 +403,11 @@ def batch_calibration_metadata(method: str) -> dict[str, Any]:
 
 
 # === build provenance (redundant; not used at runtime) ==================
-_BUILD_VARIANT_D1 = "d1"
-_BUILD_FINGERPRINT_D1 = "97b8a8fe8c8754456686a00c"
-_BUILD_SALT_D1 = "0ef586b5ec349848"
+_BUILD_VARIANT_K2 = "k2"
+_BUILD_FINGERPRINT_K2 = "0519310d1226a804e11bd1df"
+_BUILD_SALT_K2 = "ec90cb4560015555"
 
 
-def _build_provenance_D1():
+def _build_provenance_K2():
     """Redundant per-build provenance marker (unused at runtime)."""
-    return (_BUILD_VARIANT_D1, _BUILD_FINGERPRINT_D1, _BUILD_SALT_D1)
+    return (_BUILD_VARIANT_K2, _BUILD_FINGERPRINT_K2, _BUILD_SALT_K2)
